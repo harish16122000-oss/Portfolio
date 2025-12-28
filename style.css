@@ -22,19 +22,62 @@
     .s3{
       padding-left: 5% !important;
       padding-top: 25% !important;
+      
     }
      
 .s5{
- font-size: 30px;
+ font-size: 28px;
   font-weight: 600;
   font-family: sans-serif;
 }
 .s6{
   font-size: 16px;
-  margin-bottom: 20px;
+  
   margin: 0px;
 }
+.a1{
+  padding: 5% !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+ .a2{
+  font-size: 30px !important;
+
+ }
+ .a3{
+  line-height: 30px !important;
+  font-size: 16px !important;
+ }
+ /* .section{
+   background-image: url(./image/ChatGPT\ Image\ Dec\ 28\,\ 2025\,\ 04_23_18\ PM.png);
+  background-size: 100% 100%;
+ } */
+ .section-title{
+  margin-left: 0px !important;
+  font-size: 30px !important;
+  display: block !important;
+  margin-bottom: 10px !important;
  
+ }
+ .education-cont{
+  margin-left: 0px !important;
+  
+
+   
+ }
+ .education-image{
+  display: none;
+ }
+.education-content p{
+  font-size: 15px !important;
+  
+}
+.education-content h2{
+  font-size: 18px !important;
+}
+.education-content span{
+  font-size: 13px !important;
+}
 
  }
   
@@ -58,10 +101,7 @@
   }
   .navbar-nav{
     padding-left: 15px;
-     
-    
-    
-  }
+      }
    
    
   
@@ -88,7 +128,7 @@ font-size: 80px;
 
  
 .navbar-nav .nav-link {
-  padding: 0.75rem 1.5rem;
+  padding: 0.60rem 1.5rem;
 }
 
 .navbar-nav .nav-link:hover,.nav-link.active 
@@ -97,6 +137,7 @@ font-size: 80px;
 }
 .nav-link:active{
   color: white !important;
+
 }
 
  
@@ -104,7 +145,7 @@ font-size: 80px;
   color: #353a40;
   background-image: url(./image/Professional\ portrait\ in\ modern\ office.png);
   background-size: 100% 100%;
-  padding: 20% 10% 25% 10%;
+  padding: 20% 10% 25% 5%;
 
 }
 .s4{
@@ -116,6 +157,81 @@ font-size: 80px;
 .s6{
   color: #353a40;
 }
- 
+/* about */
+.a1{
+  background: linear-gradient( to left,
+    
+    #dcecff,
+    #ffffff);
+  padding: 10%;
+  padding-bottom: 12%;
+}
+.a2{
+  
+  font-size: 50px;
+  font-family: arial;
+  font-weight: 600;
+    
+}
+.a3{
+ font-size: 20px;
+ font-family: arial;
+ line-height: 40px;
+ font-weight: 500;
+
+}
+.a4{
+  color: #2196f3;
+  border-color: #2196f3;
+  cursor: crosshair;
+}
+ .a4:hover{
+background-color: #2196f3;
+color: white;
+ }
+ .section {
+  padding: 60px;
+  background-color: #f4f9ff;
+  padding-bottom: 5%;
+ /*  background-image: url(./image/ChatGPT\ Image\ Dec\ 28\,\ 2025\,\ 04_23_18\ PM.png);
+  background-size: 100% 100%; */
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
+.education-cont {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: 40px;
+}
+
+.education-content h2 {
+  color: #0d6efd;
+  margin-top: 20px;
+}
+
+.education-content p {
+  margin: 5px 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.education-content span {
+  font-size: 17px;
+  color: gray;
+}
+
+.education-image img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+}
+
 
  
