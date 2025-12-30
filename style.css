@@ -237,7 +237,7 @@ color: white;
   border-radius: 12px;
 }
 .q{
- 
+  
   padding: 100px 0px;
   background-color: #0A2640;
 }
@@ -248,8 +248,14 @@ color: black;
  padding-left: 20px;
  /* padding-top: 100px;
  padding-bottom: 100px; */
+ border-radius: 20px;
 
 }
+ .q2,.q3,.q4{
+  font-weight: 700;
+   
+ }
+ 
 .q5{
   width: 320px;
  padding-left: 15px;
@@ -257,9 +263,22 @@ color: black;
 .q1 h2{
   margin-top: 50px;
   color: #2196f3;
+  font-size: 30px;
 }
-.q1 p{
-  margin-top: 30px;
+.q6{
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.q7{
+ font-size: 17px;
+ font-family: 600;
+ margin: 0px 0px;
+}
+.q8{
+  font-size: 15px;
+   color: gray;
+   font-weight: 500;
 }
 
  
