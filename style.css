@@ -15,6 +15,18 @@
  .section-title{
   margin-left: 10px !important;
  }
+ .card i{
+font-size: 50px;
+margin-left: 70px !important;
+padding-top: 30px;
+}
+.card-title{
+  padding-left: 40px !important ;
+  color: #1F2937;
+}
+ .d2{
+  padding-left: 30px !important;
+ }
  }
  @media (max-width: 480px){
   .profile-img{
@@ -55,6 +67,7 @@
   line-height: 30px !important;
   font-size: 16px !important;
  }
+
  
  /* .section{
    background-image: url(./image/ChatGPT\ Image\ Dec\ 28\,\ 2025\,\ 04_23_18\ PM.png);
@@ -109,14 +122,30 @@
 }
 .card i{
   font-size: 40px !important;
+  margin-left: 130px !important;
   
+}
+.card-title{
+  margin-left: 0px !important;
+  padding-left: 100px !important;
 }
 .card{
   width: 300px !important;
+  margin-left: 10px !important;
   
 }
 .card-text{
   font-size: 14px !important;
+}
+.w3{
+  margin-left: 8px !important;
+}
+.w4{
+  padding-left: 90px !important;
+
+}
+.d2{
+  padding-left: 10px !important;
 }
 
  }
@@ -147,7 +176,7 @@
   
 .s5{
 font-size: 80px;
-  font-weight: 700;
+  font-weight: 600;
   font-family: arial;
 }
 .s6{
@@ -155,6 +184,15 @@ font-size: 80px;
 }
 .qa{
   width: 435px;
+}
+.render{
+ padding-top: 10% !important;
+ padding-bottom: 15% !important;
+
+}
+.d1{
+  font-size: 50px;
+  font-weight: 700;
 }
  
 
@@ -239,6 +277,7 @@ color: white;
   
   padding-left: 50px;
   padding-top: 25px;
+  padding-bottom: 30px;
  /*  background-image: url(./image/ChatGPT\ Image\ Dec\ 28\,\ 2025\,\ 04_23_18\ PM.png);
   background-size: 100% 100%; */
 
@@ -246,7 +285,7 @@ color: white;
 
 .section-title {
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 700;
   padding-top: 5px;
   margin-left: 450px;
    
@@ -319,15 +358,16 @@ color: white;
 .w1{
    background-color: #F4F7FB;
    padding: 50px;
+   padding-top: 20px;
 }
 .w2{
   font-size: 50px;
   font-weight: 700;
-  margin-left: 390px;
+  margin-left: 490px;
 }
 .card i{
 font-size: 60px;
-margin-left: 120px;
+margin-left: 160px;
 padding-top: 30px;
 }
 .card{
@@ -337,7 +377,7 @@ padding-top: 30px;
   transition: all 0.3s ease;
 }
 .card-title{
-  padding-left: 80px ;
+  padding-left: 130px ;
   color: #1F2937;
 }
 .card-text{
