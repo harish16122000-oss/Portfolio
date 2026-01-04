@@ -1,4 +1,9 @@
- @media(min-width:485px) and (max-width: 800px){
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+@media(min-width:485px) and (max-width: 800px){
     .profile-img{
         display: none;
     }
@@ -28,6 +33,16 @@ padding-top: 30px;
   padding-left: 30px !important;
  }
  }
+  
+@media (max-width: 768px) {
+  .d1 {
+    font-size: 28px;
+  }
+
+  .project-card {
+    padding: 25px !important;
+  }
+}
  @media (max-width: 480px){
   .profile-img{
         display: none;
@@ -83,6 +98,7 @@ padding-top: 30px;
  }
  .education-cont{
   margin-left: 0px !important;
+   
   
 
    
@@ -92,8 +108,10 @@ padding-top: 30px;
  }
  .education1{
   margin-bottom: 0% !important;
-  margin-top: 0% 
-  !important;
+  margin-top: 0% !important;
+  width: 330px;
+  padding-left: 20px !important;
+ 
  }
   
  .qa{
@@ -114,11 +132,12 @@ padding-top: 30px;
 }
 .w1{
   padding-left: 34px !important;
+  
 }
 .w2{
   margin-left: 100px !important;
   font-size: 30px !important;
-  padding-top: 40px !important;
+  padding-top: 20px !important;
 }
 .card i{
   font-size: 40px !important;
@@ -131,7 +150,8 @@ padding-top: 30px;
 }
 .card{
   width: 300px !important;
-  margin-left: 5px !important;
+  margin-left: 10px !important;
+  padding-left: 0px !important;
   
 }
 .card-text{
@@ -146,6 +166,26 @@ padding-top: 30px;
 }
 .d2{
   padding-left: 10px !important;
+}
+
+.project-card .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+ padding: 10px !important;
+}
+
+.project-card .btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+  padding: 0px !important;
+}
+.w1{
+  padding: 0px !important;
+  padding-left: 20px !important;
+}
+.project-card{
+  margin-left: 10px !important;
+  padding: 15px !important;
 }
 
  }
@@ -410,4 +450,88 @@ font-size: 70px;
    transform: translateY(-6px);
   box-shadow: 0 18px 35px rgba(0, 0, 0, 0.08);
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+.render {
+  background-color: #ffffff;
+}
+ 
+.d1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #212529;
+  position: relative;
+}
+
+.d1::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: #0d6efd;
+  display: block;
+  margin: 15px auto 0;
+  border-radius: 10px;
+}
+
+ 
+.project-card {
+  border: none;
+  border-radius: 18px;
+  background-color: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+}
+ 
+.project-card .d2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+ 
+.project-card .card-text {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #6c757d;
+}
+
+ 
+.project-card .tech {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212529;
+}
+ 
+.project-card .btn {
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.project-card .btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.project-card .btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: translateY(-2px);
+}
+
+.project-card .btn-outline-primary {
+  border-width: 1.5px;
+}
+
+.project-card .btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
 
