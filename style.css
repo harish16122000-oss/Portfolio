@@ -193,12 +193,18 @@ padding-top: 30px;
   margin-left: 90px !important;
 }
 .z5,.z6,.z7{
-  width: 350px !important;
+  width: 300px !important;
   padding: 5px !important;
+  margin-left: 20px;
 
  }
+ .z8{
+  margin-left: 20px !important;
+ }
  .z19{
-  width: 350px !important;
+  width: 300px !important;
+    margin-left: 20px;
+
  }
 .z3{
   margin-left: 20px !important;
