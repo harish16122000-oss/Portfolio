@@ -32,7 +32,9 @@ padding-top: 30px;
  .d2{
   padding-left: 30px !important;
  }
- }
+ 
+ 
+}
   
 @media (max-width: 768px) {
   .d1 {
@@ -59,12 +61,12 @@ padding-top: 30px;
     }
      
 .s5{
- font-size: 28px;
+ font-size: 24px;
   font-weight: 600;
   font-family: sans-serif;
 }
 .s6{
-  font-size: 16px;
+  font-size: 17px;
   
   margin: 0px;
 }
@@ -217,6 +219,15 @@ padding-top: 30px;
 .z17{
   margin-left: 50px;
 }
+.redux{
+   height: 50px !important;
+   width: 40px !important;
+ }
+ .redux1{
+  padding-left: 70px !important;
+  
+ 
+ }
 
 }
   
@@ -265,7 +276,10 @@ font-size: 80px;
   font-weight: 700;
 }
  
-
+.redux1{
+  padding-left: 100px !important;
+   
+}
 }
 
  
@@ -307,6 +321,7 @@ font-size: 80px;
 }
 .s6{
   color: #353a40;
+   
 }
 /* about */
 .a1{
@@ -440,6 +455,18 @@ font-size: 60px;
 margin-left: 160px;
 padding-top: 30px;
 }
+.redux{
+  height: 75px;
+  width: 50px;
+  
+  
+}
+.redw{
+  
+  padding-top: 10px !important;
+  
+}
+ 
 .card{
  border: 1px solid #E5E7EB;
   border-radius: 16px;
@@ -453,6 +480,7 @@ padding-top: 30px;
 .card-text{
   color: #4B5563;
 }
+
 .html {
   color: #E34F26;
 }
@@ -475,6 +503,9 @@ padding-top: 30px;
 .card i:hover{
 font-size: 70px;
 
+}
+.card img:hover{
+  height: 90px;
 }
 .card:hover{
    transform: translateY(-6px);
