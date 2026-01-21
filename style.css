@@ -354,7 +354,9 @@ font-size: 80px;
 .a5{text-decoration: none;}
  .a4:hover{
 background-color: #2196f3;
-color: white;
+ }
+ .a5:hover{
+  color: white;
  }
  .section {
   
